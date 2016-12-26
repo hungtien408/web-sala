@@ -1,0 +1,13 @@
+﻿.wrap-sec-third .third-wrap > p {
+    font-size: 175px;
+}
+.wrap-sec-third .third-wrap > p > sup {
+    font-size:50px;
+    margin-bottom:0px;
+    word-spacing: -6px;
+}
+.wrap-sec-third .third-wrap > span {
+    font-size: 30px;
+    padding-left: 90px;
+    line-height: 40px;
+}

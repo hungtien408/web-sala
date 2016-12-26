@@ -1,0 +1,35 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/site.master" AutoEventWireup="true" CodeFile="site-cart.master.cs"
+    Inherits="site_cart" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
+    <div class="container">
+        <div class="wrapper-cart">
+            <div class="wrapper-cart-bg">
+                <div id="col-asibar">
+                    <ul id="menu-cart">
+                        <li class="first active"><a class="corner" style="cursor: none;" href="gio-hang.aspx">
+                            Thông tin
+                            <br />
+                            Giỏ hàng <span class="mask"></span></a></li>
+                        <li><a class="corner noclick" style="cursor: none;" href="thong-tin-thanh-toan.aspx">
+                            Thông tin
+                            <br />
+                            Thanh toán <span class="mask"></span></a></li>
+                        <li class="last"><a style="cursor: none;" class="corner noclick" href="thanh-toan-thanh-cong.aspx">
+                            Xác nhận
+                            <br />
+                            thành công <span class="mask"></span></a></li>
+                    </ul>
+                </div>
+                <div id="col-content">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+            <div class="clr">
+            </div>
+        </div>
+    </div>
+</asp:Content>
